@@ -72,6 +72,16 @@
             </div>
         </div>
     </header>
+    <section>
+        <div class="block blackish low-opacity">
+            <div class="fixed-bg"></div>
+            <div class="restaurant-searching style2 text-center">
+                <div class="restaurant-searching-inner">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 <script type="text/javascript" src="{{ mix('/js/app.js') }}"></script>
 </body>
