@@ -48,6 +48,6 @@
         </div>
     </header>
 </main>
-<script type="text/javascript" href="{{ mix('/js/app.js') }}"></script>
+<script type="text/javascript" src="{{ mix('/js/app.js') }}"></script>
 </body>
 </html>
