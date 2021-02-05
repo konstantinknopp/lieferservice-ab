@@ -1,7 +1,7 @@
 window._ = require('lodash');
 
 try {
-    require("jquery");
+    window.jQuery = require("jquery");
 } catch (e) {
 }
 
