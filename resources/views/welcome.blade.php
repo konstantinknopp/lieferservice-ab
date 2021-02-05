@@ -74,7 +74,7 @@
     </header>
     <section>
         <div class="block blackish low-opacity">
-            <div class="fixed-bg"></div>
+            <div class="fixed-bg" style="background-image: url(images/own/header-parallax.jpg)"></div>
             <div class="restaurant-searching style2 text-center">
                 <div class="restaurant-searching-inner">
                     <span></span>
