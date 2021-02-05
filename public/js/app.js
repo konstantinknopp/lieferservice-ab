@@ -2934,7 +2934,7 @@ $(document).ready(function () {
 
   $("#profile-upload").change(function () {
     readURL(this);
-  }); //===== Dropdown Anmiation =====// 
+  }); //===== Dropdown Anmiation =====//
 
   var drop = $('.gallery-info-btns > a');
   $('.gallery-info-btns').each(function () {
@@ -2946,15 +2946,15 @@ $(document).ready(function () {
       delay += 100;
     });
   }); // var drop2 = $('.menu-links > li > ul > li >  ul > li')
-  // $('.menu-links > li > ul > li').each(function(){      
+  // $('.menu-links > li > ul > li').each(function(){
   //   var delay2 = 0;
   //   $(this).find(drop2).each(function(){
   //     $(this).css({transitionDelay: delay2+'ms'});
   //     delay2 += 50;
   //   });
-  // });  
+  // });
+  // new WOW().init();
 
-  new WOW().init();
   $('.rating-wrapper > a').on('click', function () {
     $(this).next('.rate-share').toggleClass('active');
     return false;

@@ -1,6 +1,6 @@
 $(document).ready(function(){
   'use strict';
-  
+
   //===== Profile Image Upload =====*/
   function readURL(input) {
     if (input.files && input.files[0]) {
@@ -18,7 +18,7 @@ $(document).ready(function(){
     readURL(this);
   });
 
-  //===== Dropdown Anmiation =====// 
+  //===== Dropdown Anmiation =====//
   var drop = $('.gallery-info-btns > a');
   $('.gallery-info-btns').each(function(){
     var delay = 0;
@@ -26,17 +26,17 @@ $(document).ready(function(){
       $(this).css({transitionDelay: delay+'ms'});
       delay += 100;
     });
-  });  
+  });
   // var drop2 = $('.menu-links > li > ul > li >  ul > li')
-  // $('.menu-links > li > ul > li').each(function(){      
+  // $('.menu-links > li > ul > li').each(function(){
   //   var delay2 = 0;
   //   $(this).find(drop2).each(function(){
   //     $(this).css({transitionDelay: delay2+'ms'});
   //     delay2 += 50;
   //   });
-  // });  
+  // });
 
-  new WOW().init();
+  // new WOW().init();
 
   $('.rating-wrapper > a').on('click',function(){
     $(this).next('.rate-share').toggleClass('active');
@@ -352,7 +352,7 @@ $(document).ready(function(){
       slide: 'li',
       fade: false,
       asNavFor: '.restaurant-detail-thumb-carousel'
-    });        
+    });
 
     $('.restaurant-detail-thumb-carousel').slick({
       slidesToShow: 3,
@@ -393,7 +393,7 @@ $(document).ready(function(){
       slide: 'li',
       fade: false,
       asNavFor: '.featured-restaurant-food-thumb-carousel'
-    });        
+    });
 
     $('.featured-restaurant-food-thumb-carousel').slick({
       slidesToShow: 5,
