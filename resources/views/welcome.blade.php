@@ -44,6 +44,31 @@
                         <option>Gemischt</option>
                     </select>
                 </div>
+                <div class="select-wrp">
+                    <select data-placeholder="Ort wählen...">
+                        <option>Ort wählen...</option>
+                        <option>Aschaffenburg</option>
+                        <option>Goldbach</option>
+                        <option>Hösbach</option>
+                        <option>Großostheim</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="logo-menu-sec">
+            <div class="container">
+                <div class="logo">
+                    <h1 itemprop="headline">
+                        <a href="#" title="Home" itemprop="url">
+                            <img src="{{ asset('/images/logo2.png') }}" alt="Logo" itemprop="image">
+                        </a>
+                    </h1>
+                </div>
+                <nav>
+                    <div class="menu-sec">
+                        <a href="#" class="red-bg brd-rd4" title="Registrieren" itemprop="url">Restaurant registrieren</a>
+                    </div>
+                </nav>
             </div>
         </div>
     </header>
